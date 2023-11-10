@@ -1,3 +1,6 @@
 function skillsMember() {
-    console.log('I am a member of the skills.js file')
+    var member = document.getElementById("member");
+    var memberSkills = document.getElementById("memberSkills");
+    memberSkills.style.display = "block";
+    member.style.display = "none";
 }
